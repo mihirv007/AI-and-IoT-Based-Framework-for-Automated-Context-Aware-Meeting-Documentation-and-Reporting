@@ -1,0 +1,13 @@
+Annotations and Transcripts
+
+The AMI corpus also provides:
+
+Manual transcripts for accurate evaluation
+
+Speaker segmentation and labels
+
+Dialogue act and topic annotations
+
+Meeting summaries and action items (for selected meetings)
+
+These annotations allow both quantitative evaluation (e.g., transcription accuracy) and qualitative analysis (e.g., discussion flow).

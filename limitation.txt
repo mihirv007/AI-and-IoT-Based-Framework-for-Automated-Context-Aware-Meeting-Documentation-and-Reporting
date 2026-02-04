@@ -1,0 +1,5 @@
+OPTION 2 — Mention limitation in paper (smart move)
+
+Add one sentence in your paper:
+
+“The diarization model was trained on earlier versions of PyTorch and pyannote.audio; however, empirical results show stable performance under newer environments.”

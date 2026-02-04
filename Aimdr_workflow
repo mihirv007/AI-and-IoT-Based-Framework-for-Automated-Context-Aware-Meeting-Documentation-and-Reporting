@@ -1,0 +1,27 @@
+Microphone
+   ↓
+Audio Recording (.wav)
+   ↓
+Whisper ASR Model
+   ↓
+Text Transcript
+   ↓
+NLP (summary, action items)
+
+`Whisper:
+
+Voice to text is implemented using OpenAI Whisper, a transformer-based automatic speech recognition model. The system records meeting audio through a microphone, converts it into WAV format, and processes it using Whisper to generate accurate text transcripts even in noisy environments. This transcript is later used for summarization and action-item extraction.”
+
+
+`Architecture of Summarization Model:
+
+Meeting Transcript
+       ↓
+Text Preprocessing
+       ↓
+T5 Transformer Model
+       ↓
+Short Summary Text
+
+Model was trained with pyannote.audio 0.0.1, yours is 3.1.1
+Model was trained with torch 1.10.0+cu102, yours is 2.3.1
